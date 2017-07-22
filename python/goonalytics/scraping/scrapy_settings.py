@@ -1,0 +1,9 @@
+BOT_NAME = 'stubot-goonalytics'
+SPIDER_MODULES = ['goonalytics.scraping.bq_scrapers']
+NEWSPIDER_MODULE = 'goonalytics.scraping.bq_scrapers'
+CONCURRENT_REQUESTS = 5
+CONCURRENT_REQUESTS_PER_DOMAIN = 5
+DNS_TIMEOUT = 600  # give it ten minutes because comcast is shit
+DOWNLOAD_DELAY = 2
+RANDOMIZE_DOWNLOAD_DELAY = True
+ROBOTSTXT_OBEY = False  # can't login otherwise

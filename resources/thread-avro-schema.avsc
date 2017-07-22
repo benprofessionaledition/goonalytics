@@ -1,0 +1,31 @@
+{
+    "namespace": "io.goonalytics",
+    "type": "record",
+    "name": "ThreadInfo",
+    "fields": [
+    {
+      "name": "thread_id",
+      "type": "long"
+    },
+    {
+      "name": "thread_title",
+      "type": "string"
+    },
+    {
+      "name": "forum_id",
+      "type": "int"
+    },
+    {
+      "name": "author",
+      "type": "string"
+    },
+    {
+      "name": "author_id",
+      "type": "long"
+    },
+    {
+      "name": "ignore",
+      "type": "boolean"
+    }
+    ]
+}

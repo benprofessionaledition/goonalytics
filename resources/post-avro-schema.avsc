@@ -1,0 +1,46 @@
+{
+    "namespace": "io.goonalytics",
+    "type": "record",
+    "name": "Post",
+    "fields": [
+    {
+      "name": "post_id",
+      "type": "long"
+    },
+    {
+      "name": "user_id",
+      "type": "int"
+    },
+    {
+      "name": "user_name",
+      "type": "string"
+    },
+    {
+      "name": "post_text",
+      "type": "string"
+    },
+    {
+      "name": "thread_page",
+      "type": "int"
+    },
+    {
+      "name": "post_date_timestamp",
+      "type": "long"
+    },
+    {
+      "name": "quoted_post_ids",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "thread_id",
+      "type": "int"
+    },
+    {
+      "name": "forum_id",
+      "type": "int"
+    }
+    ]
+}
