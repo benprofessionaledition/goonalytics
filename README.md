@@ -1,5 +1,5 @@
 # goonalytics
 
-The initial forums.somethingawful.com scraping project. This project requires the use of a paid somethingawful.com membership and 
-the setup.py is way out of date I think. It's best used as a reference when creating other scrapy projects cause I have zero 
-intentions of making any effort to maintain it. The classes that use Google BigQuery and Cloud Storage may also be useful, although they're sort of ghetto rigged together.
+This is a useless old project for scraping the SA forums. It's tightly coupled to the GCP APIs from 2016, which had almost no documentation at the time and have apparently undergone a lot of undocumented breaking changes. 
+
+It's also tightly coupled to the SA Forums' HTML structure, although there was never any getting around that. 
